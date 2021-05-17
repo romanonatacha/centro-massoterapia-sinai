@@ -20,7 +20,7 @@ const Navbar = () => {
                     <a href="#beneficios">benefícios da massoterapia</a>
                 </li>
                 <li className="c-navbar__menu__item">
-                    <a>Contato</a>
+                    <a href="#contato">Contato</a>
                 </li>
             </ul>
         </nav>
