@@ -1,0 +1,38 @@
+.c-home {
+    background: url('../../assets/images/tender-african-woman-smiling-enjoying-massage-with-closed-eyes-in-spa-resort.png') no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+
+    &__content {
+        @include imageOverlay;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $secondary-color;
+
+        h1 {
+            font-weight: 700;
+            text-align: right;
+            display: flex;
+            text-transform: lowercase;
+            font-size: 58px;
+        }
+
+        &__text {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            text-transform: uppercase;
+            font-size: 20px;
+            background-color: #ffffff99;
+            border-radius: 3px;
+            font-family: $font-secondary;
+
+            li {
+                padding: 24px;
+            }
+        }
+    }
+}

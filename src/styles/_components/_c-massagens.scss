@@ -1,0 +1,47 @@
+.c-massagens {
+    height: 100%;
+    display: flex;
+    &__image {
+        background: url('../../assets/images/young-caucasian-woman-getting-anti-age-massage.png')no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 70%;
+        position: relative;
+        z-index: -9;
+
+        &__overlay {
+            @include imageOverlay;
+        }
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__content {
+
+        h2 {
+            color: $secondary-color;
+            font-weight: 700;
+            margin-left: -20%;
+            z-index: 9;
+            margin-bottom: 40px;
+            font-size: 42px;
+        }
+    }
+
+    &__list {
+        color: $primary-color;
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            padding: 24px 32px;
+
+            h6 {
+                font-size: 20px;
+            }
+        }
+    }
+}

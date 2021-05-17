@@ -1,0 +1,52 @@
+.c-navbar {
+    background-color: transparent;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $font-secondary;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    
+    &__logo {
+        display: flex;
+        align-items: center;
+        
+        svg {
+            font-size: 28px;
+            color: $primary-color;
+        }
+        
+        span {
+            padding: 6px 16px;
+            border-radius: 3px;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: white;
+            background: $primary-color;
+            margin-left: 16px;
+        }
+    }
+    
+    &__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+
+        &__item {
+            margin: 0 16px;
+            cursor: pointer;
+            text-transform: lowercase;
+            font-size: 14px;
+            font-weight: 600;
+
+            &:hover {
+                border-bottom: 1px solid $primary-color;
+            }
+        }
+    }
+}
