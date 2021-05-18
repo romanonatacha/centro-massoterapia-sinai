@@ -13,7 +13,12 @@ const Massagens = () => {
                             <h6>Desintoxicante</h6>
                         </li>
                         <li>
-                            <h6>Drenagem Linfática (Pré e Pós operatória)</h6>
+                            <h6>Drenagem Linfática
+                                <br></br>
+                                <span>
+                                    Pré e Pós operatória
+                                </span>
+                            </h6>
                         </li>
                         <li>
                             <h6>Pacientes com AVC</h6>

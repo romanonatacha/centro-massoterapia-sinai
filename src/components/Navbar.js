@@ -1,5 +1,6 @@
-import { faSpa } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faSpa } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (
@@ -22,7 +23,12 @@ const Navbar = () => {
                 <li className="c-navbar__menu__item">
                     <a href="#contato">Contato</a>
                 </li>
+
             </ul>
+            <a className="c-navbar__whatsapp" href="https://api.whatsapp.com/send?phone=555192173433" target="_blank">
+                <FontAwesomeIcon icon={faWhatsapp} />
+                <span>Agende aqui</span>
+            </a>
         </nav>
     )
 }
