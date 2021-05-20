@@ -4,7 +4,7 @@ const Massagens = () => {
     return (
         <section className="c-massagens">
             <div className="c-massagens__image" role="img" aria-label="Mulher recebendo massagem facial - Frepik">
-                <div className="c-massagens__image--mb dt-hide"><img src={imageMobile} /></div>
+                <div className="c-massagens__image--mb dt-hide"><img src={imageMobile} alt="Mulher recebendo massagem facial - Frepik" /></div>
                 <div className="c-massagens__image__overlay"></div>
             </div>
             <div className="container">

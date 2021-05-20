@@ -7,7 +7,7 @@ const Contato = () => {
     return (
         <section className="c-contato">
         <div className="c-contato__image--mb dt-hide">
-            <img src={mobileImage} />
+            <img alt="telefone retrô - freepik" src={mobileImage} />
             <div className="c-contato__image__overlay"></div>
         </div>
             <div className="container">
