@@ -6,6 +6,12 @@
     align-items: center;
     justify-content: center;
 
+    .container {
+        @include mobile {
+            padding-top: 100px;
+        }
+    }
+
     &__content {
         h2 {
             color: $secondary-color;
@@ -14,19 +20,38 @@
             z-index: 9;
             margin-bottom: 40px;
             font-size: 42px;
+
+            @include mobile {
+                font-size: 24px;
+            }
         }
     }
     &__list {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
+        .slick-track {
+            display: flex;
+            justify-content: space-between;
+            min-height: 430px;
+
+            @include mobile {
+                justify-content: center;
+            }
+
+            .slick-slide {
+
+                > div {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
         &__item {
             background-color: white;
             border-radius: 3px;
             box-shadow: 0px 2px 6px rgba(148, 150, 154, 0.2);
             padding: 32px;
             max-width: 350px;
-            // text-align: center;
+            min-height: 420px;
+
             &__image {
                 width: 60px;
                 margin: 0 auto 24px;

@@ -1,6 +1,9 @@
 .c-contato {
     height: 100%;
-    display: flex;
+
+    @include desktop {
+        display: flex;
+    }
 
     &__image {
         background: url('../../assets/images/vintage-pink-telephone-arrangement.jpg')no-repeat;
@@ -12,6 +15,14 @@
 
         &__overlay {
             @include imageOverlay;
+        }
+
+        &--mb {
+            position: relative;
+            margin-top: 120px;
+            img {
+                width: 100%;
+            }
         }
     }
 
@@ -30,6 +41,13 @@
             z-index: 9;
             margin-bottom: 40px;
             font-size: 42px;
+
+            @include mobile {
+                font-size: 28px;
+                margin-right: 0;
+                margin-top: 32px;
+                margin-bottom: 32px;
+            }
         }
 
         &__text {
@@ -39,6 +57,10 @@
                 font-size: 22px;
                 font-weight: 500;
                 margin-bottom: 32px;
+
+                @include mobile {
+                    font-size: 20px;
+                }
                 
                 span {
                     color: $secondary-color;
@@ -46,6 +68,9 @@
                     display: block;
                     font-size: 16px;
                     margin-top: 8px;
+                    @include mobile {
+                        font-size: 14px;
+                    }
                 }
             }
 
@@ -67,6 +92,9 @@
 
             a {
 
+                svg {
+                    color: $whatsapp;
+                }
                 span {
                     &:hover {
                         border-bottom: 1px solid $primary-color;
@@ -82,6 +110,10 @@
                 color: $primary-color;
                 font-size: 32px;
                 margin-right: 10px;
+
+                @include mobile {
+                    font-size: 24px;
+                }
             }
         }
     }

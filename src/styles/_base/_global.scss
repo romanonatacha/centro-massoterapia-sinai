@@ -6,6 +6,7 @@ body {
     font-size: 12px !important;
     font-family: $font-primary;
     color: $default-color !important;
+    overflow-x: hidden;
 }
 
 ol, ul, li {
@@ -20,5 +21,17 @@ a {
 
     &:hover {
         text-decoration: none !important;
+    }
+}
+
+@include desktop {
+    .dt-hide {
+        display: none;
+    }
+}
+
+@include mobile {
+    .mb-hide {
+        display: none;
     }
 }
