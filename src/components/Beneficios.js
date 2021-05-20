@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import spa from '../assets/images/icons/spa.svg'
 import massage from '../assets/images/icons/massage.svg'
 import estetica from '../assets/images/icons/estetica.svg'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Beneficios = () => {
     return (
@@ -12,40 +13,40 @@ const Beneficios = () => {
                     <ul className="c-beneficios__list">
                         <li className="c-beneficios__list__item">
                             <div className="c-beneficios__list__item__image">
-                                <img src={spa} />
+                                <img alt="icone de spa - frepik" src={spa} />
                             </div>
                             <ul className="c-beneficios__sublist">
-                                <li>Controle do estresse</li>
-                                <li>Diminuição da ansiedade</li>
-                                <li>Alívio das dores de cabeça</li>
-                                <li>Diminuição do cansaço</li>
-                                <li>Alívio da tensão e das dores musculares</li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Controle do estresse</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Diminuição da ansiedade</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Alívio das dores de cabeça</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Diminuição do cansaço</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Alívio da tensão e das dores musculares</span></li>
                             </ul>
                         </li>
                         <li className="c-beneficios__list__item">
                             <div className="c-beneficios__list__item__image">
-                                <img src={massage} />
+                                <img alt="icone de massagem - freepik" src={massage} />
                             </div>
                             <ul className="c-beneficios__sublist">
-                                <li>Fortalecimento do sistema imunológico</li>
-                                <li>Alívio de dores crônicas</li>
-                                <li>Recuperação de lesões</li>
-                                <li>Eliminação de toxinas e resíduos metabólicos</li>
-                                <li>Diminuição da pressão arterial no caso de pacientes hipertenso</li>
-                                <li>Melhora a circulação sanguínea e promove a desintoxicação</li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Fortalecimento do sistema imunológico</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Alívio de dores crônicas</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Recuperação de lesões</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Eliminação de toxinas e resíduos metabólicos</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Diminuição da pressão arterial no caso de pacientes hipertenso</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Melhora a circulação sanguínea e promove a desintoxicação</span></li>
                             </ul>
                         </li>
                         <li className="c-beneficios__list__item">
                             <div className="c-beneficios__list__item__image">
-                                <img src={estetica} />
+                                <img alt="icone de estetica - freepik" src={estetica} />
                             </div>
                             <ul className="c-beneficios__sublist">
-                                <li>Auxilia no emagrecimento e combate a celulite</li>
-                                <li>Sensação de bem-estar</li>
-                                <li>Melhora da qualidade do sono</li>
-                                <li>Diminuição das insônias</li>
-                                <li>Melhora da circulação sanguínea, elasticidade da pele e sistema imune</li>
-                                <li>Estimulação e equilíbrio do sistema intestinal;</li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Auxilia no emagrecimento e combate a celulite</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Sensação de bem-estar</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Melhora da qualidade do sono</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Diminuição das insônias</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Melhora da circulação sanguínea, elasticidade da pele e sistema imune</span></li>
+                                <li><FontAwesomeIcon icon={faArrowRight} /><span>Estimulação e equilíbrio do sistema intestinal</span></li>
                             </ul>
                         </li>
                     </ul>

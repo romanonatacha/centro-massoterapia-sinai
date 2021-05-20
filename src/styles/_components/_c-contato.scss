@@ -1,0 +1,88 @@
+.c-contato {
+    height: 100%;
+    display: flex;
+
+    &__image {
+        background: url('../../assets/images/vintage-pink-telephone-arrangement.jpg')no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 70%;
+        position: relative;
+        z-index: -9;
+
+        &__overlay {
+            @include imageOverlay;
+        }
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    &__content {
+        h2 {
+            color: $secondary-color;
+            font-weight: 700;
+            margin-right: -100px;
+            z-index: 9;
+            margin-bottom: 40px;
+            font-size: 42px;
+        }
+
+        &__text {
+
+            h6 {
+                color: $primary-color;
+                font-size: 22px;
+                font-weight: 500;
+                margin-bottom: 32px;
+                
+                span {
+                    color: $secondary-color;
+                    font-weight: 400;
+                    display: block;
+                    font-size: 16px;
+                    margin-top: 8px;
+                }
+            }
+
+            a, p {
+                display: flex;
+                align-items: center;
+                margin-bottom: 24px;
+
+                span {
+                    font-size: 16px;
+                    color: $secondary-color;
+                    font-weight: 500;
+
+                    span {
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            a {
+
+                span {
+                    &:hover {
+                        border-bottom: 1px solid $primary-color;
+                    }
+                }
+            }
+
+            p:last-child {
+                align-items: flex-start;
+            }
+
+            svg {
+                color: $primary-color;
+                font-size: 32px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

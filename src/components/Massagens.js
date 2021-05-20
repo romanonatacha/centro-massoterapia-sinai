@@ -2,7 +2,7 @@ const Massagens = () => {
 
     return (
         <section className="c-massagens">
-            <div className="c-massagens__image" id="testando">
+            <div className="c-massagens__image" role="img" aria-label="Mulher recebendo massagem facial - Frepik">
                 <div className="c-massagens__image__overlay"></div>
             </div>
             <div className="container">
@@ -13,12 +13,10 @@ const Massagens = () => {
                             <h6>Desintoxicante</h6>
                         </li>
                         <li>
-                            <h6>Drenagem Linfática
-                                <br></br>
-                                <span>
-                                    Pré e Pós operatória
-                                </span>
-                            </h6>
+                            <h6>Drenagem Linfática</h6>
+                        </li>
+                        <li>
+                            <h6>Pré e Pos operatória</h6>
                         </li>
                         <li>
                             <h6>Pacientes com AVC</h6>

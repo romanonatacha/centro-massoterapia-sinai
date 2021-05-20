@@ -1,3 +1,4 @@
+import React from 'react'
 import './styles/App.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "animate.css/animate.min.css"
@@ -6,21 +7,19 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Massagens from './components/Massagens'
 import Beneficios from './components/Beneficios'
+import Contato from './components/Contato'
 
 function App() {
 
   return (
-    <>
+    <div>
       <Navbar />
-          {/* <button onClick={() => fullpageApi.moveSectionDown()}>
-                  Click me to move down
-                </button> */}
       <ReactFullpage
-        //fullpage options
         licenseKey={'YOUR_KEY_HERE'}
-        scrollingSpeed={1000} /* Options here */
+        scrollingSpeed={100}
         animateAnchor={true}
-        anchors={['home', 'massagens', 'beneficios']}
+        anchors={['home', 'massagens', 'beneficios', 'contato']}
+        responsiveWidth='800'
 
         render={({ state, fullpageApi }) => {
           return (
@@ -34,11 +33,14 @@ function App() {
               <div className="section">
                 <Beneficios />
               </div>
+              <div className="section">
+                <Contato />
+              </div>
             </ReactFullpage.Wrapper>
           )
         }}
       />
-    </>
+    </div>
   )
 }
 
