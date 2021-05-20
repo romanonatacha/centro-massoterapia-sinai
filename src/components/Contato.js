@@ -1,7 +1,7 @@
 import { faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
 import { faMapMarkerAlt, faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import mobileImage from '../assets/images/vintage-pink-telephone-assortment.jpg'
+import mobileImage from '../assets/images/vintage-pink-telephone-assortment.png'
 
 const Contato = () => {
     return (
