@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <ReactFullpage
         licenseKey={'YOUR_KEY_HERE'}
-        scrollingSpeed={100}
+        scrollingSpeed={1000}
         animateAnchor={true}
         anchors={['home', 'massagens', 'beneficios', 'contato']}
         responsiveHeight='650'
