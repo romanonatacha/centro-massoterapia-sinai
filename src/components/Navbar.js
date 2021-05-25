@@ -25,7 +25,7 @@ const Navbar = () => {
                 </li>
 
             </ul>
-            <a className="c-navbar__whatsapp" href="https://api.whatsapp.com/send?phone=555192173433" target="_blank" rel="noreferrer">
+            <a className="c-navbar__whatsapp" href="https://api.whatsapp.com/send?phone=5551992173433" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faWhatsapp} />
                 <span>Agende aqui</span>
             </a>

@@ -18,13 +18,13 @@ const Contato = () => {
                             Celina R. Ferreira
                             <span>Massoterapeuta Profissional AEPERS 7694/01</span>
                         </h6>
-                        <a href="https://api.whatsapp.com/send?phone=555192173433" target="_blank" rel="noreferrer">
+                        <a href="https://api.whatsapp.com/send?phone=5551992173433" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faWhatsappSquare} />
-                            <span>(51) 9217-3433</span>
+                            <span>(51) 99217-3433</span>
                         </a>
                         <p>
                             <FontAwesomeIcon icon={faPhoneSquareAlt} />
-                            <span>(51) 9217-3433</span>
+                            <span>(51) 99217-3433</span>
                         </p>
                         <p>
                             <FontAwesomeIcon icon={faMapMarkerAlt} />
