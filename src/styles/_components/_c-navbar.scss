@@ -1,5 +1,5 @@
 .c-navbar {
-    background-color: transparent;
+    background-color: #ffffff99;
     padding: 24px 32px;
     display: flex;
     align-items: center;
@@ -12,7 +12,6 @@
     @include mobile {
         flex-direction: column;
         padding: 16px;
-        background-color: #ffffff99;
     }
     
     &__logo {

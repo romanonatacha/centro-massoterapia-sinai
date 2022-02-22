@@ -6,10 +6,10 @@ import mobileImage from '../assets/images/vintage-pink-telephone-assortment.png'
 const Contato = () => {
     return (
         <section className="c-contato">
-        <div className="c-contato__image--mb dt-hide">
-            <img alt="telefone retrô - freepik" src={mobileImage} />
-            <div className="c-contato__image__overlay"></div>
-        </div>
+            <div className="c-contato__image--mb dt-hide">
+                <img alt="telefone retrô - freepik" src={mobileImage} />
+                <div className="c-contato__image__overlay"></div>
+            </div>
             <div className="container">
                 <div className="c-contato__content">
                     <h2>entre em contato para agendar</h2>
@@ -33,7 +33,7 @@ const Contato = () => {
                     </div>
                 </div>
             </div>
-             <div className="c-contato__image mb-hide" role="img" aria-label="Telefone - Frepik">
+            <div className="c-contato__image mb-hide" role="img" aria-label="Telefone - Frepik">
                 <div className="c-contato__image__overlay"></div>
             </div>
         </section>

@@ -10,6 +10,7 @@ import Home from './components/Home'
 import Massagens from './components/Massagens'
 import Beneficios from './components/Beneficios'
 import Contato from './components/Contato'
+import Avaliacoes from './components/Avaliacoes';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
         licenseKey={'YOUR_KEY_HERE'}
         scrollingSpeed={1000}
         animateAnchor={true}
-        anchors={['home', 'massagens', 'beneficios', 'contato']}
+        anchors={['home', 'massagens', 'beneficios', 'avaliacoes', 'contato']}
         responsiveHeight='650'
 
         render={({ state, fullpageApi }) => {
@@ -34,6 +35,9 @@ function App() {
               </div>
               <div className="section">
                 <Beneficios />
+              </div>
+              <div className="section">
+                <Avaliacoes />
               </div>
               <div className="section">
                 <Contato />
